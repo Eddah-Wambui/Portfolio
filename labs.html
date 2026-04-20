@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Challenges | Eddah Wambui</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="resume.html">Resume</a>
+    <a href="projects.html">Projects</a>
+    <a href="labs.html" class="active" aria-current="page">Lab</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main>
+<section class="container section-panel">
+
+    <div class="page-intro">
+        <span class="eyebrow">Lab Challenges</span>
+        <h2>Hands-on Cybersecurity Labs & Writeups</h2>
+        <p>
+            Practical exercises completed on TryHackMe and Hack The Box,
+            demonstrating my skills in network analysis, security testing, and threat detection.
+        </p>
+    </div>
+
+    <!-- SQL INJECTION -->
+    <article class="card">
+        <span class="card-label">Web Security</span>
+        <h3>SQL Injection Authentication Bypass</h3>
+
+        <p><strong>Problem:</strong> Login system vulnerable to SQL injection.</p>
+
+        <p><strong>Approach:</strong></p>
+        <p><code>' OR '1'='1 --</code></p>
+
+        <p><strong>Tools:</strong> Browser, Burp Suite</p>
+
+        <p><strong>Lesson Learned:</strong> Input validation and parameterized queries are critical to prevent injection attacks.</p>
+    </article>
+
+    <!-- NETWORK RECON -->
+    <article class="card">
+        <span class="card-label">Networking</span>
+        <h3>Passive Reconnaissance</h3>
+
+        <p><strong>Platform:</strong> TryHackMe</p>
+
+        <p><strong>Description:</strong> Gathered information about targets without direct interaction.</p>
+
+        <p><strong>Tools:</strong> DNS tools, OSINT techniques</p>
+
+        <p><strong>Lesson Learned:</strong> Attackers can collect valuable data without alerting systems.</p>
+
+        <p><a href="https://tryhackme.com/room/passiverecon" target="_blank">View Lab</a></p>
+    </article>
+
+    <!-- DNS -->
+    <article class="card">
+        <span class="card-label">Networking</span>
+        <h3>DNS Analysis</h3>
+
+        <p><strong>Platform:</strong> TryHackMe</p>
+
+        <p><strong>Description:</strong> Explored DNS records and how they are used in attacks.</p>
+
+        <p><strong>Tools:</strong> DNS lookup tools</p>
+
+        <p><strong>Lesson Learned:</strong> Misconfigured DNS can expose sensitive information.</p>
+
+        <p><a href="https://tryhackme.com/room/dnsindetail" target="_blank">View Lab</a></p>
+    </article>
+
+    <!-- OWASP -->
+    <article class="card">
+        <span class="card-label">Web Security</span>
+        <h3>OWASP Top 10</h3>
+
+        <p><strong>Platform:</strong> TryHackMe</p>
+
+        <p><strong>Description:</strong> Studied common web vulnerabilities and mitigation techniques.</p>
+
+        <p><strong>Lesson Learned:</strong> Secure coding practices are essential in preventing attacks.</p>
+
+        <p><a href="https://tryhackme.com/room/owasptopten2025one" target="_blank">View Lab</a></p>
+    </article>
+
+    <!-- ACTIVE DIRECTORY -->
+    <article class="card">
+        <span class="card-label">Enterprise Security</span>
+        <h3>Active Directory Attacks</h3>
+
+        <p><strong>Platform:</strong> TryHackMe</p>
+
+        <p><strong>Description:</strong> Explored vulnerabilities in enterprise environments.</p>
+
+        <p><strong>Lesson Learned:</strong> Weak configurations can lead to privilege escalation.</p>
+
+        <p><a href="https://tryhackme.com/room/attacktivedirectory" target="_blank">View Lab</a></p>
+    </article>
+
+    <!-- LOG ANALYSIS -->
+    <article class="card">
+        <span class="card-label">SOC Skills</span>
+        <h3>Log Analysis & Splunk</h3>
+
+        <p><strong>Platform:</strong> TryHackMe</p>
+
+        <p><strong>Description:</strong> Analyzed logs to detect suspicious activities.</p>
+
+        <p><strong>Tools:</strong> Splunk</p>
+
+        <p><strong>Lesson Learned:</strong> Logs are critical for identifying and investigating threats.</p>
+
+        <p>
+            <a href="https://tryhackme.com/room/introtologanalysis" target="_blank">Intro to Logs</a> |
+            <a href="https://tryhackme.com/room/splunkexploringspl" target="_blank">Splunk Lab</a>
+        </p>
+    </article>
+
+    <!-- FORENSICS -->
+    <article class="card">
+        <span class="card-label">Forensics</span>
+        <h3>Windows Forensics</h3>
+
+        <p><strong>Platform:</strong> TryHackMe</p>
+
+        <p><strong>Description:</strong> Investigated compromised systems and artifacts.</p>
+
+        <p><strong>Lesson Learned:</strong> Digital evidence is key in incident response.</p>
+
+        <p><a href="https://tryhackme.com/room/windowsforensics1" target="_blank">View Lab</a></p>
+    </article>
+
+    <!-- WIFI -->
+    <article class="card">
+        <span class="card-label">Wireless Security</span>
+        <h3>WiFi Hacking Basics</h3>
+
+        <p><strong>Platform:</strong> TryHackMe</p>
+
+        <p><strong>Description:</strong> Learned wireless attack techniques and vulnerabilities.</p>
+
+        <p><strong>Lesson Learned:</strong> Weak encryption exposes networks to attacks.</p>
+
+        <p><a href="https://tryhackme.com/room/wifihacking101" target="_blank">View Lab</a></p>
+    </article>
+
+    <!-- HTB -->
+    <article class="card">
+        <span class="card-label">Hack The Box</span>
+        <h3>HTB Academy Modules</h3>
+
+        <p><strong>Description:</strong> Completed multiple modules covering enumeration, networking, and penetration testing.</p>
+
+        <p><strong>Lesson Learned:</strong> Structured methodology is key in security testing.</p>
+
+        <p>
+            <a href="https://academy.hackthebox.com/app/module/15" target="_blank">Module 15</a> |
+            <a href="https://academy.hackthebox.com/app/module/49" target="_blank">Module 49</a> |
+            <a href="https://academy.hackthebox.com/app/module/18" target="_blank">Module 18</a>
+        </p>
+    </article>
+
+</section>
+</main>
+
+</body>
+</html>
